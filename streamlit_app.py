@@ -120,11 +120,11 @@ with header_col1:
 
     try:
         st.image(
-            "profile.jpg",
+            "profile.jpeg",
             width=200
         )
     except:
-        st.info("Put your profile photo in the project folder as profile.jpg")
+        st.info("Put your profile photo in the project folder as profile.jpeg")
 
 
 with header_col2:
@@ -359,8 +359,8 @@ with right_column:
 
         st.subheader("Previous Education")
 
-        st.write("Your College / School")
-        st.write("2021 - 2024")
+        st.write("SMA AL-ASYRAF")
+        st.write("2019 - 2024")
 
 
     # ========================================================
@@ -427,11 +427,11 @@ with right_column:
         education_data = pd.DataFrame(
             {
                 "Institution": [
-                    "Your University"
+                    "POLITEKNIK MERSING JOHOR"
                     
                 ],
                 "Qualification": [
-                    "Bachelor of Computer Science"
+                    "DIPLOMA of INFORMATION TECHNOLOGY"
                     
                 ],
                 "Year": [
