@@ -319,7 +319,7 @@ with right_column:
 
         st.divider()
 
-        st.subheader("Academic Projects")
+        st.subheader("Academic Projects (FYP)")
 
         st.write("2025 - 2026")
 
@@ -342,9 +342,9 @@ with right_column:
             unsafe_allow_html=True
         )
 
-        st.subheader("Bachelor of Computer Science")
+        st.subheader("Diploma of Information Technology")
 
-        st.write("POLITEKNIK MERSING JOHOR")
+        st.write("Politeknik Mersing Johor")
         st.write("2024 - Present")
 
         st.write(
@@ -427,11 +427,11 @@ with right_column:
         education_data = pd.DataFrame(
             {
                 "Institution": [
-                    "POLITEKNIK MERSING JOHOR"
+                    "Politeknik Mersing Johor"
                     
                 ],
                 "Qualification": [
-                    "DIPLOMA of INFORMATION TECHNOLOGY"
+                    "Diploma of Information Technology"
                     
                 ],
                 "Year": [
