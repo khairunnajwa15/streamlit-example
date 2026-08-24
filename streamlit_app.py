@@ -130,7 +130,7 @@ with header_col1:
 with header_col2:
 
     st.markdown(
-        '<div class="main-title">YOUR NAME</div>',
+        '<div class="main-title">KHAIRUN NAJWA BINTI ROZAIDI</div>',
         unsafe_allow_html=True
     )
 
@@ -160,13 +160,13 @@ metric1, metric2, metric3, metric4 = st.columns(4)
 with metric1:
     st.metric(
         label="Projects",
-        value="8"
+        value="1"
     )
 
 with metric2:
     st.metric(
         label="Programming Languages",
-        value="5"
+        value="3"
     )
 
 with metric3:
@@ -178,7 +178,7 @@ with metric3:
 with metric4:
     st.metric(
         label="CGPA",
-        value="3.70"
+        value="3.35"
     )
 
 
@@ -222,9 +222,9 @@ with left_column:
         unsafe_allow_html=True
     )
 
-    st.write("📧 Email: student@example.com")
-    st.write("📱 Phone: 012-3456789")
-    st.write("📍 Location: Malaysia")
+    st.write("📧 Email: khairunnajwa1576@gmail.com")
+    st.write("📱 Phone: 019-7849789")
+    st.write("📍 Location: Politeknik Mersing, Johor")
 
 
     # --------------------------------------------------------
@@ -235,8 +235,8 @@ with left_column:
 
         st.write("### Contact Me")
 
-        st.write("Email: student@example.com")
-        st.write("Phone: 012-3456789")
+        st.write("Email: khairunnajwa1576@gmail.com")
+        st.write("Phone: 019-7849789")
         st.write("LinkedIn: linkedin.com/in/student")
 
 
@@ -251,7 +251,8 @@ with left_column:
 
     st.write("• English")
     st.write("• Malay")
-    st.write("• Basic Mandarin")
+    st.write("• Basic Korean")
+    st.write("• Basic Arabic")
 
 
     # --------------------------------------------------------
@@ -320,7 +321,7 @@ with right_column:
 
         st.subheader("Academic Projects")
 
-        st.write("2023 - 2024")
+        st.write("2025 - 2026")
 
         st.write(
             """
@@ -343,7 +344,7 @@ with right_column:
 
         st.subheader("Bachelor of Computer Science")
 
-        st.write("Your University")
+        st.write("POLITEKNIK MERSING JOHOR")
         st.write("2024 - Present")
 
         st.write(
@@ -426,16 +427,16 @@ with right_column:
         education_data = pd.DataFrame(
             {
                 "Institution": [
-                    "Your University",
-                    "Your College"
+                    "Your University"
+                    
                 ],
                 "Qualification": [
-                    "Bachelor of Computer Science",
-                    "Diploma / Foundation"
+                    "Bachelor of Computer Science"
+                    
                 ],
                 "Year": [
-                    "2024 - Present",
-                    "2021 - 2024"
+                    "2024 - Present"
+                    
                 ]
             }
         )
